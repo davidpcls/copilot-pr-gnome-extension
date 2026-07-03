@@ -2,6 +2,8 @@
 
 Show open pull requests where you are requested for review in one GitHub organization.
 
+> [!NOTE] This was created entirely with AI, I cannot gaurantee it works
+
 ## What It Shows
 
 - Panel count: `PR: N`
