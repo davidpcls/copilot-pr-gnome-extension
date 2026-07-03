@@ -1,0 +1,69 @@
+.github-review-section {
+    padding: 4px 0;
+    spacing: 6px;
+    min-width: 340px;
+}
+
+.github-review-header {
+    spacing: 12px;
+}
+
+.github-review-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+.github-review-value {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.github-review-detail {
+    font-size: 11px;
+    color: #a0a0a0;
+}
+
+.github-review-footer {
+    padding: 4px 0 2px;
+    spacing: 10px;
+}
+
+.github-review-button-content {
+    spacing: 6px;
+}
+
+.github-review-button {
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    transition: background-color 160ms ease-out, border-color 160ms ease-out;
+}
+
+.github-review-button:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.github-review-button:active {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.github-review-button.busy {
+    background-color: rgba(16, 163, 127, 0.18);
+    border-color: rgba(16, 163, 127, 0.34);
+}
+
+.github-review-last-updated {
+    font-size: 10px;
+    font-style: italic;
+    color: #808080;
+    text-align: right;
+}
+
+.github-review-pr-item {
+    max-width: 420px;
+}

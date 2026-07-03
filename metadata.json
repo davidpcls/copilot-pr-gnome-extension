@@ -1,0 +1,8 @@
+{
+  "uuid": "github-review-requests@davidpcls",
+  "name": "GitHub Review Requests",
+  "description": "Shows open GitHub PRs where you are requested for review.",
+  "shell-version": ["45", "46", "47", "48", "49", "50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.github-review-requests",
+  "url": "https://github.com/davidpcls/github-review-requests-extension"
+}

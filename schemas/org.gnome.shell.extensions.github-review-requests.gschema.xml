@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="github-review-requests">
+  <schema id="org.gnome.shell.extensions.github-review-requests" path="/org/gnome/shell/extensions/github-review-requests/">
+    <key name="refresh-interval" type="i">
+      <default>120</default>
+      <summary>Refresh interval</summary>
+      <description>How often to refresh GitHub review requests in seconds.</description>
+    </key>
+    <key name="github-host" type="s">
+      <default>'github.com'</default>
+      <summary>GitHub host</summary>
+      <description>GitHub host for API requests. Use github.com for public GitHub or your GHES hostname.</description>
+    </key>
+    <key name="review-org-slug" type="s">
+      <default>''</default>
+      <summary>Organization slug</summary>
+      <description>GitHub organization slug used to filter review requests.</description>
+    </key>
+    <key name="api-token" type="s">
+      <default>''</default>
+      <summary>Legacy API token migration key</summary>
+      <description>Legacy plaintext token key. Existing values are migrated to the login keyring and then cleared.</description>
+    </key>
+  </schema>
+</schemalist>
